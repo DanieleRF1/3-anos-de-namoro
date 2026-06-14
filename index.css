@@ -57,8 +57,8 @@ p {
 }
 
 .carrossel {
-    width: 500px;
-    height: 700px;
+    width: 400px;
+    height: 600px;
     margin: auto;
     overflow: hidden;
     border-radius: 40px;
@@ -72,26 +72,14 @@ p {
 }
 
 .slides img {
-    width: 500px;
-    height: 700px;
+    width: 400px;
+    height: 600px;
     object-fit: cover;
     flex-shrink: 0;
 }
 
-.prox, .antes {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 50px;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
+#nos4 {
+    object-fit: cover;
+    object-position: 58% center;
 }
 
-.prox {
-    left: 15px;
-}
-
-.antes {
-    right: 15px;
-}
